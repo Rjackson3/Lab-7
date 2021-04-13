@@ -4,7 +4,7 @@ function init() {
   function myFunction() {
     var textBox = document.getElementById("entryinput");
     var output = document.getElementById("textoutput");
-    alert("Andy Qiao: " + textBox.value);
+    alert("Ryan Jackson: " + textBox.value);
     output.innerHTML = textBox.value;
   }
   entry.addEventListener('click', myFunction);
